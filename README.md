@@ -18,7 +18,7 @@ issue the following command to see the effect.
 ```
  $make
  
- $sudo insmod lkm-rootkit.ko
+ $sudo insmod ./lkm-rootkit.ko
  
  $curl www.baidu.com
  
