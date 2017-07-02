@@ -14,7 +14,7 @@ static char *patterns[] = {"http://", "https://", "www."};
 static long pattern_len[] = {7, 8, 4}, max_pattern_len = 8;
 static long nr_patterns = 3;
 
-static char *dst_url = "http://www.bilibili.com";
+static char *dst_url = "https://www.bilibili.com";
 
 
 static asmlinkage long (*old_sys_execve)(const char __user *filename,
